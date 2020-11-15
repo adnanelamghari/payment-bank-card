@@ -1,11 +1,13 @@
 # Payment bank card
-A beautiful credit card form for payments in your website 
+A beautiful credit card form for payments in your website that includes card number formatting and automatic card type detection
 
 
 ## Demo
 
-* Working example location : `demo` directory of this repository.
+* Working example location : `docs` directory of this repository.
 * [Demo](https://adnanelamghari.github.io/payment-bank-card/)
+
+![](docs/assets/images/demo.gif)
 
 ## Usage 
 WIP
