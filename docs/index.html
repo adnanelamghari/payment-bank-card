@@ -5,89 +5,95 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
-    <style type="text/css">
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            width: 100%;
-        }
-
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            display: -webkit-flex;
-            -webkit-align-items: center;
-            -webkit-justify-content: center;
-            background-image: linear-gradient(to right top, #a2beeb, #8ecfee, #8edde5, #a4e7d5, #c7eec7);
-            flex-direction: column;
-            -webkit-flex-direction: column;
-        }
-
-        .title {
-            margin-bottom: 30px;
-            color: #162969;
-        }
-    </style>
-
+    <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/bank-card.css" rel="stylesheet">
 </head>
 <body>
-<h1 class="title">My bank card !</h1>
-
-<div class="card">
-    <div class="card-front card-part" id="card-front">
-        <img alt="" class="card-front-square card-square" src="assets/icons/sim-card-chip.png">
-        <img alt="" class="card-front-square card-square" src="assets/icons/contactless-payment-white.png"/>
-        <img alt="" class="card-front-logo card-logo" src="assets/logos/22.svg">
-        <p class="card-number" id="card-number">**** **** **** ****</p>
-        <div class="card-space-75">
-            <span class="card-label">Card holder</span>
-            <p class="card-info" id="card-holder">Your name here</p>
-        </div>
-        <div class="card-space-25">
-            <span class="card-label">Expires</span>
-            <p class="card-info" id="card-expires-date">**/**</p>
-        </div>
-    </div>
-
-    <div class="card-back card-part" id="card-back">
-        <div class="card-black-line"></div>
-        <div class="card-back-content">
-            <div class="card-secret">
-                <p class="card-secret--last" id="card-secret-cvc">***</p>
-            </div>
-            <img alt="" class="card-back-logo card-logo" src="assets/logos/22.svg">
-        </div>
-    </div>
+<h1 class="title">Chose a background !</h1>
+<div class="card-backgrounds">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)"
+         src="https://i.pinimg.com/originals/2f/5c/97/2f5c974138dc59a69e937a545bdbc41a.jpg">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)"
+         src="https://a-static.besthdwallpaper.com/one-piece-sunny-mille-fond-d-ecran-3440x1440-8306_15.jpg">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)"
+         src="https://c4.wallpaperflare.com/wallpaper/150/76/890/anonymous-computer-hacker-legion-wallpaper-preview.jpg">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)"
+         src="https://besthqwallpapers.com/img/original/74180/linear-world-map-creative-world-map-concept-art-world-map-on-black-background.jpg">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)"
+         src="https://www.digitaldesignjournal.com/wp-content/uploads/2018/07/Programming-World-Map-Wallpaper.jpg">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)"
+         src="https://i.pinimg.com/originals/6e/d7/e9/6ed7e946922460dd2e536d881d87ebe0.jpg">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)"
+         src="https://img.grouponcdn.com/deal/VxAy7G1WDivezxCPLLoug1if8X2/t620x376/Vx-1000x600.jpg">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)"
+         src="https://images.all-free-download.com/images/graphicthumb/cooking_background_various_ingredients_pan_icons_falling_decor_6828003.jpg">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)" src="https://image.ibb.co/bVnMrc/g3095.png">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)"
+         src="https://cdn.hipwallpaper.com/i/57/3/JiDaO9.jpg">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)"
+         src="https://wallpapermemory.com/uploads/801/monkey-d-luffy-background-hd-1680x1050-314756.jpg">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)"
+         src="https://img.freepik.com/vecteurs-libre/fond-formes-geometriques-design-plat_23-2148374534.jpg?size=626&ext=jpg">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)"
+         src="https://wallpaperaccess.com/full/893545.jpg">
+    <img alt="" class="background" onclick="changeCardBackground(this.src)"
+         src="https://png.pngtree.com/thumb_back/fw800/background/20190820/pngtree-abstract-80-style-background-with-geometric-shapes-trendy-colorful-memphis-design-image_304126.jpg">
 </div>
-<div>
-    <form>
-        <div class="row">
-            <label>Card holder :</label>
-            <input id="card-holder-input" placeholder="Card holder name" type="text">
-        </div>
-        <div class="row">
-            <label>Card number :</label>
-            <input id="card-number-input" maxlength="19" minlength="19" placeholder="Card number" type="text">
-        </div>
-        <div class="row">
-            <div class="col-50">
-                <label>Expires :</label>
-                <input id="card-expires-date-input" max="1299" maxlength="5" minlength="5" placeholder="Expires"
-                       type="text">
+<h1 class="title">My payment form</h1>
+<div class="form-container">
+    <div class="card">
+        <div class="card-front card-part" id="card-front">
+            <img alt="" class="card-front-square card-square" src="assets/icons/sim-card-chip.png">
+            <img alt="" class="card-front-square card-square" src="assets/icons/contactless-payment-white.png"/>
+            <img alt="" class="card-front-logo card-logo" src="assets/logos/22.svg">
+            <p class="card-number" id="card-number">**** **** **** ****</p>
+            <div class="card-space-75">
+                <span class="card-label">Card holder</span>
+                <p class="card-info" id="card-holder">Your name here</p>
             </div>
-            <div class="col-50">
-                <label>CVC :</label>
-                <input id="card-secret-cvc-input" max="999" maxlength="4" min="100" minlength="4" placeholder="CVC"
-                       type="text">
+            <div class="card-space-25">
+                <span class="card-label">Expires</span>
+                <p class="card-info" id="card-expires-date">**/**</p>
             </div>
         </div>
-    </form>
+        <div class="card-back card-part" id="card-back">
+            <div class="card-black-line"></div>
+            <div class="card-back-content">
+                <div class="card-secret">
+                    <p class="card-secret--last" id="card-secret-cvc">***</p>
+                </div>
+                <img alt="" class="card-back-logo card-logo" src="assets/logos/22.svg">
+            </div>
+        </div>
+    </div>
+    <div>
+        <form>
+            <div class="row">
+                <label>Card holder :</label>
+                <input id="card-holder-input" placeholder="Card holder name" type="text">
+            </div>
+            <div class="row">
+                <label>Card number :</label>
+                <input id="card-number-input" maxlength="19" minlength="19" placeholder="Card number" type="text">
+            </div>
+            <div class="row">
+                <div class="col-50">
+                    <label>Expires :</label>
+                    <input id="card-expires-date-input" max="1299" maxlength="5" minlength="5" placeholder="Expires"
+                           type="text">
+                </div>
+                <div class="col-50">
+                    <label>CVC :</label>
+                    <input id="card-secret-cvc-input" max="999" maxlength="4" min="100" minlength="4" placeholder="CVC"
+                           type="text">
+                </div>
+            </div>
+        </form>
+    </div>
 </div>
 
 <script src="assets/js/bank-card.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>

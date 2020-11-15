@@ -24,7 +24,7 @@
     display: inline-block;
     width: 320px;
     height: 190px;
-    background-image: url('https://www.digitaldesignjournal.com/wp-content/uploads/2018/07/Programming-World-Map-Wallpaper.jpg'), linear-gradient(to right bottom, #fd696b, #fa616e, #f65871, #f15075, #ec4879);
+    background-image: url('https://i.pinimg.com/originals/6e/d7/e9/6ed7e946922460dd2e536d881d87ebe0.jpg'), linear-gradient(to right bottom, #fd696b, #fa616e, #f65871, #f15075, #ec4879);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -174,7 +174,6 @@
 /* Form design */
 
 form {
-    margin-top: 50px;
     width: 320px;
 }
 

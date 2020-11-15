@@ -1,20 +1,4 @@
-/*  Backgrounds
-    https://png.pngtree.com/thumb_back/fw800/background/20190820/pngtree-abstract-80-style-background-with-geometric-shapes-trendy-colorful-memphis-design-image_304126.jpg
-    https://img.freepik.com/vecteurs-libre/fond-formes-geometriques-design-plat_23-2148374534.jpg?size=626&ext=jpg
-    https://wallpapermemory.com/uploads/801/monkey-d-luffy-background-hd-1680x1050-314756.jpg
-    https://cdn.hipwallpaper.com/i/57/3/JiDaO9.jpg
-    https://image.ibb.co/bVnMrc/g3095.png
-    https://images.all-free-download.com/images/graphicthumb/cooking_background_various_ingredients_pan_icons_falling_decor_6828003.jpg
-    https://img.grouponcdn.com/deal/VxAy7G1WDivezxCPLLoug1if8X2/t620x376/Vx-1000x600.jpg
-    https://i.pinimg.com/originals/6e/d7/e9/6ed7e946922460dd2e536d881d87ebe0.jpg
-    https://www.digitaldesignjournal.com/wp-content/uploads/2018/07/Programming-World-Map-Wallpaper.jpg
-    https://besthqwallpapers.com/img/original/74180/linear-world-map-creative-world-map-concept-art-world-map-on-black-background.jpg
-    https://c4.wallpaperflare.com/wallpaper/150/76/890/anonymous-computer-hacker-legion-wallpaper-preview.jpg
-    https://a-static.besthdwallpaper.com/one-piece-sunny-mille-fond-d-ecran-3440x1440-8306_15.jpg
-    https://i.pinimg.com/originals/2f/5c/97/2f5c974138dc59a69e937a545bdbc41a.jpg
-*/
-
-const DEFAULT_LOGO_URL = 'assets/logos/22.svg'; // https://curry.rutabago.com/assets/images/logo/rutabago_logo_white.svg
+const DEFAULT_LOGO_URL = 'assets/logos/22.svg';
 const ICONS_URI = 'assets/icons/';
 const ICONS_EXTENSION = '.svg';
 

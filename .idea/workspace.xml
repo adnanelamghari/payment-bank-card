@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2164b124-2380-4424-b947-7e8e9cdb1e46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/assets/css/bank-card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/js/bank-card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bank-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bank-card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/css/bank-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/css/bank-card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/js/bank-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/js/bank-card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SmartOP-mobile" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -48,8 +52,11 @@
       <recent name="C:\Users\adnan_cfr2gd1\WebstormProjects\payment-bank-card" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/payment-bank-card/demo/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/payment-bank-card/docs/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/payment-bank-card/index.html" useBuiltInWebServerPort="true">
@@ -57,6 +64,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -72,7 +80,8 @@
       <updated>1605358412377</updated>
       <workItem from="1605358413765" duration="15000" />
       <workItem from="1605361773268" duration="634000" />
-      <workItem from="1605443591317" duration="3656000" />
+      <workItem from="1605443591317" duration="6594000" />
+      <workItem from="1605451618044" duration="1201000" />
     </task>
     <task id="LOCAL-00001" summary="first commit: feat add payment form &amp; demo page">
       <created>1605446655376</created>
@@ -88,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605446943647</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix assets in demo page">
+      <created>1605447344453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605447344453</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,23 +115,24 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="first commit: feat add payment form &amp; demo page" />
     <MESSAGE value="rename demo folder to docs for github pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename demo folder to docs for github pages" />
+    <MESSAGE value="fix assets in demo page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix assets in demo page" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="437" y="0" key="CommitChangelistDialog2" timestamp="1605446942757">
+    <state x="437" y="0" key="CommitChangelistDialog2" timestamp="1605447343744">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state x="437" y="0" key="CommitChangelistDialog2/0.0.1920.1030@0.0.1920.1030" timestamp="1605446942757" />
-    <state x="686" y="207" key="FileChooserDialogImpl" timestamp="1605445274581">
+    <state x="437" y="0" key="CommitChangelistDialog2/0.0.1920.1030@0.0.1920.1030" timestamp="1605447343744" />
+    <state x="686" y="207" key="FileChooserDialogImpl" timestamp="1605448630670">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state x="686" y="207" key="FileChooserDialogImpl/0.0.1920.1030@0.0.1920.1030" timestamp="1605445274581" />
-    <state x="451" y="156" key="Vcs.Push.Dialog.v2" timestamp="1605446945357">
+    <state x="686" y="207" key="FileChooserDialogImpl/0.0.1920.1030@0.0.1920.1030" timestamp="1605448630670" />
+    <state x="451" y="156" key="Vcs.Push.Dialog.v2" timestamp="1605447348829">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state x="451" y="156" key="Vcs.Push.Dialog.v2/0.0.1920.1030@0.0.1920.1030" timestamp="1605446945357" />
+    <state x="451" y="156" key="Vcs.Push.Dialog.v2/0.0.1920.1030@0.0.1920.1030" timestamp="1605447348829" />
   </component>
 </project>

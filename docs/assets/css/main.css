@@ -1,0 +1,62 @@
+body, html {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    background-image: linear-gradient(to right top, #a2beeb, #8ecfee, #8edde5, #a4e7d5, #c7eec7);
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+.title {
+    margin-bottom: 30px;
+    color: #162969;
+}
+
+.form-container {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    align-items: center;
+}
+
+.card-backgrounds {
+    margin-top: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+}
+
+.background {
+    width: 150px;
+    height: 70px;
+    object-fit: cover;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card {
+    margin-right: 20px;
+}
