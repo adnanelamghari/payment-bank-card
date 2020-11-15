@@ -1,7 +1,5 @@
 body, html {
     padding: 0;
-    height: 100%;
-    width: 100%;
     margin: 0;
 }
 
@@ -12,7 +10,7 @@ body {
     display: -webkit-flex;
     -webkit-align-items: center;
     -webkit-justify-content: center;
-    background-image: linear-gradient(to right top, #a2beeb, #8ecfee, #8edde5, #a4e7d5, #c7eec7);
+    background: #B0E9D0;
     flex-direction: column;
     -webkit-flex-direction: column;
 }
@@ -32,6 +30,8 @@ body {
     -webkit-align-items: center;
     -webkit-justify-content: center;
     align-items: center;
+    grid-column-gap: 10px;
+    grid-gap: 15px;
 }
 
 .card-backgrounds {
@@ -57,6 +57,12 @@ body {
     cursor: pointer;
 }
 
-.card {
-    margin-right: 20px;
+@media only screen and (max-width: 600px) {
+    .card-backgrounds {
+        padding: unset;
+    }
+
+    .title {
+        font-size: 20px;
+    }
 }
