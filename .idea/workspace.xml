@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2164b124-2380-4424-b947-7e8e9cdb1e46" name="Default Changelist" comment="first commit: feat add payment form &amp; demo page">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/payment-bank-card.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bank-card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/amex.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/contactless-payment-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/contactless-payment-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/maestro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/mastercard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/sim-card-chip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/visa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bank-card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logos/22.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/assets/icons/amex.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/assets/icons/contactless-payment-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/assets/icons/contactless-payment-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/assets/icons/maestro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/assets/icons/mastercard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/assets/icons/sim-card-chip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/assets/icons/visa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/assets/logos/22.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kHXId0wnPSb1Ey2nKWIWyWGS01" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/assets" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adnan_cfr2gd1\WebstormProjects\payment-bank-card\demo\assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adnan_cfr2gd1\WebstormProjects\payment-bank-card\demo\assets" />
+      <recent name="C:\Users\adnan_cfr2gd1\WebstormProjects\payment-bank-card\demo" />
+      <recent name="C:\Users\adnan_cfr2gd1\WebstormProjects\payment-bank-card" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/payment-bank-card/demo/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/payment-bank-card/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2164b124-2380-4424-b947-7e8e9cdb1e46" name="Default Changelist" comment="" />
+      <created>1605358412377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605358412377</updated>
+      <workItem from="1605358413765" duration="15000" />
+      <workItem from="1605361773268" duration="634000" />
+      <workItem from="1605443591317" duration="3033000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit: feat add payment form &amp; demo page" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit: feat add payment form &amp; demo page" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="437" y="0" key="CommitChangelistDialog2" timestamp="1605446620602">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="437" y="0" key="CommitChangelistDialog2/0.0.1920.1030@0.0.1920.1030" timestamp="1605446620602" />
+    <state x="686" y="207" key="FileChooserDialogImpl" timestamp="1605445274581">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="686" y="207" key="FileChooserDialogImpl/0.0.1920.1030@0.0.1920.1030" timestamp="1605445274581" />
+  </component>
+</project>
