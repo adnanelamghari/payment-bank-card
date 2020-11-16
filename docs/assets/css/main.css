@@ -13,6 +13,8 @@ body {
     background: #B0E9D0;
     flex-direction: column;
     -webkit-flex-direction: column;
+    min-height: 100%;
+    position: relative;
 }
 
 .title {
@@ -32,6 +34,7 @@ body {
     align-items: center;
     grid-column-gap: 10px;
     grid-gap: 15px;
+    margin-bottom: 50px;
 }
 
 .card-backgrounds {
@@ -55,6 +58,18 @@ body {
     object-fit: cover;
     margin: 10px;
     cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 @media only screen and (max-width: 600px) {

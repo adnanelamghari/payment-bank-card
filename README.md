@@ -23,6 +23,6 @@ which going to make it easier for you (There are too many libraries, so i'm goin
 ## Credits
 This project is inspired from two projects : 
 
-* Some logic](https://codepen.io/murani/pen/KyVbrp)
+* [Some logic](https://codepen.io/murani/pen/KyVbrp)
 * [Some design](https://codepen.io/veronicadev/pen/VXqZgR)
 
